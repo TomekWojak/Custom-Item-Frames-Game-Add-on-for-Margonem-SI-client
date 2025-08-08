@@ -2,18 +2,18 @@ const handlePanel = (centerbox) => {
 	const panel = document.createElement("div");
 	const settings = document.createElement("div");
 	const closeBtn = document.createElement("button");
-	panel.classList.add("panel");
-	closeBtn.classList.add("close");
-	settings.classList.add("settings");
+	panel.classList.add("panel-t");
+	closeBtn.classList.add("close-t");
+	settings.classList.add("settings-t");
 	closeBtn.setAttribute("aria-label", "Zamknij panel");
-	settings.innerHTML = ` <button class="option" data-url="https://i.imgur.com/xQ3sdPv.png">
+	settings.innerHTML = ` <button class="option-t" data-url="https://i.imgur.com/xQ3sdPv.png">
                 <img src="https://i.imgur.com/xQ3sdPv.png" alt="Opcja ramek nr 1">
             </button>
-            <button class="option" data-url="https://i.imgur.com/0gk9kQi.png">
+            <button class="option-t" data-url="https://i.imgur.com/0gk9kQi.png">
                 <img src="https://i.imgur.com/0gk9kQi.png" alt="Opcja ramek nr 2"></button>
-            <button class="option" data-url="https://i.imgur.com/wgNdb8e.png">
+            <button class="option-t" data-url="https://i.imgur.com/wgNdb8e.png">
                 <img src="https://i.imgur.com/wgNdb8e.png" alt="Opcja ramek nr 3"></button>
-            <button class="option" data-url="https://i.imgur.com/NxDcNAf.png">
+            <button class="option-t" data-url="https://i.imgur.com/NxDcNAf.png">
                 <img src="https://i.imgur.com/NxDcNAf.png" alt="Opcja ramek nr 4"></button>`;
 
 	closeBtn.innerHTML = `<svg width="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="#ffffff8a">
@@ -23,4 +23,3 @@ const handlePanel = (centerbox) => {
 	panel.append(settings, closeBtn);
 	centerbox.append(panel);
 };
-

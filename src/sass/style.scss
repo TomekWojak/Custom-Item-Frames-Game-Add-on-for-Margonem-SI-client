@@ -1,8 +1,4 @@
-* {
-	font-family: sans-serif;
-}
-
-.panel {
+.panel-t {
 	position: absolute;
 	top: 50%;
 	left: 30%;
@@ -12,21 +8,24 @@
 	border: 1px solid rgba(255, 255, 255, 0.436);
 	border-radius: 5px;
 	backdrop-filter: blur(10px);
+	font-family: sans-serif;
 }
-.settings {
+.settings-t {
 	padding: 5em 2em;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	row-gap: 4em;
+	font-family: sans-serif;
 }
-.option {
+.option-t {
 	width: calc(50% - 1em);
 	background: none;
 	border: none;
 	cursor: pointer;
+	font-family: sans-serif;
 }
-.palette {
+.palette-t {
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -34,8 +33,9 @@
 	border: none;
 	background: none;
 	cursor: pointer;
+	font-family: sans-serif;
 }
-.close {
+.close-t {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -43,6 +43,7 @@
 	background: none;
 	border: none;
 	cursor: pointer;
+	font-family: sans-serif;
 
 	svg {
 		transition: fill 0.3s;
