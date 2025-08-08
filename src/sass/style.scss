@@ -36,6 +36,15 @@ img {
 	border: none;
 	cursor: pointer;
 }
+.palette {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 1em;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
 .close {
 	position: absolute;
 	top: 0;
@@ -44,9 +53,9 @@ img {
 	background: none;
 	border: none;
 	cursor: pointer;
-	
+
 	svg {
-		transition: fill .3s;
+		transition: fill 0.3s;
 	}
 	&:hover svg {
 		fill: #ffffffdc;
