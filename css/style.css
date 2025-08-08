@@ -1,76 +1,76 @@
 .panel-t {
-	position: absolute;
-	top: 50%;
-	left: 30%;
-	transform: translate(-50%, -50%);
-	width: min(100%, 550px);
-	background-color: rgba(0, 0, 0, 0.5);
-	border: 1px solid rgba(255, 255, 255, 0.436);
-	border-radius: 5px;
-	backdrop-filter: blur(10px);
-	font-family: sans-serif;
-	z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: min(100%, 450px);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.436);
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+  font-family: sans-serif;
+  z-index: 999;
 }
 
 .settings-t {
-	padding: 5em 1em;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	row-gap: 2em;
-	font-family: sans-serif;
+  padding: 5em 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2em;
+  font-family: sans-serif;
 }
 
 .option-t {
-	width: calc(50% - 1em);
-	background: none;
-	border: none;
-	cursor: pointer;
-	font-family: sans-serif;
-	transition: box-shadow 0.3s;
+  width: calc(50% - 1em);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  transition: box-shadow 0.3s;
 }
 
 .option-t:hover {
-	box-shadow: 0 0 10px rgba(46, 46, 46, 0.2745098039);
+  box-shadow: 0 0 10px rgba(46, 46, 46, 0.2745098039);
 }
 
 .option-t img {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 .palette-t {
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	padding: 1em;
-	border: none;
-	background: none;
-	cursor: pointer;
-	font-family: sans-serif;
-	z-index: 499;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 1em;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  z-index: 499;
 }
-.palette-t .palette-t:hover {
-	fill: rgba(0, 0, 0, 0.7803921569);
+.palette-t:hover svg {
+  fill: rgba(0, 0, 0, 0.7803921569);
 }
 .palette-t svg {
-	pointer-events: none;
-	transition: fill 0.3s;
+  pointer-events: none;
+  transition: fill 0.3s;
 }
 
 .close-t {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 1em;
-	background: none;
-	border: none;
-	cursor: pointer;
-	font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: sans-serif;
 }
 .close-t svg {
-	transition: fill 0.3s;
-	pointer-events: none;
+  transition: fill 0.3s;
+  pointer-events: none;
 }
 .close-t:hover svg {
-	fill: rgba(255, 255, 255, 0.862745098);
-} /*# sourceMappingURL=style.css.map */
+  fill: rgba(255, 255, 255, 0.862745098);
+}/*# sourceMappingURL=style.css.map */

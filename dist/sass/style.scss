@@ -3,7 +3,7 @@
 	top: 50%;
 	left: 30%;
 	transform: translate(-50%, -50%);
-	width: min(100%, 550px);
+	width: min(100%, 450px);
 	background-color: rgba(0, 0, 0, 0.5);
 	border: 1px solid rgba(255, 255, 255, 0.436);
 	border-radius: 5px;
@@ -44,7 +44,7 @@
 	font-family: sans-serif;
 	z-index: 499;
 
-	.palette-t:hover {
+	&:hover svg {
 		fill: #000000c7;
 	}
 	svg {
