@@ -27,13 +27,17 @@
 }
 .palette-t {
 	position: absolute;
-	top: 10px;
-	left: 10px;
+	top: 5px;
+	left: 5px;
 	padding: 1em;
 	border: none;
 	background: none;
 	cursor: pointer;
 	font-family: sans-serif;
+
+	svg {
+		pointer-events: none;
+	}
 }
 .close-t {
 	position: absolute;
