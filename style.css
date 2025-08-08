@@ -9,6 +9,7 @@
   border-radius: 5px;
   backdrop-filter: blur(10px);
   font-family: sans-serif;
+  z-index: 1000;
 }
 
 .settings-t {
@@ -26,6 +27,9 @@
   border: none;
   cursor: pointer;
   font-family: sans-serif;
+}
+.option-t img {
+  pointer-events: none;
 }
 
 .palette-t {
