@@ -1,4 +1,6 @@
 .panel-t {
+	display: none;
+	opacity: 0;
 	position: absolute;
 	top: 50%;
 	left: 30%;
@@ -10,6 +12,11 @@
 	backdrop-filter: blur(10px);
 	font-family: sans-serif;
 	z-index: 999;
+
+	&.active {
+		display: block;
+		animation: opacity 0.5s forwards;
+	}
 }
 .settings-t {
 	padding: 5em 1em;
@@ -68,5 +75,14 @@
 	}
 	&:hover svg {
 		fill: #ffffffdc;
+	}
+}
+
+@keyframes opacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }
